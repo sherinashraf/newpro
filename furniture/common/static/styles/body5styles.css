@@ -1,0 +1,32 @@
+#body5{
+    display: flex;
+    background-color: #F7F5F4;
+    height: 550px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+}
+#b51{
+    flex: 1;
+}
+#b52{
+    flex: 2;
+}
+#b53{
+    flex: 2;
+}
+#b54{
+    flex: 2;
+}
+#b55{
+    flex: 2;
+}
+#b56{
+    flex: 2;
+}
+#b57{
+    flex: 2;
+}
+#b58{
+    flex: 6;
+}

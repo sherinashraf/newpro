@@ -1,0 +1,37 @@
+#sofa1{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+}
+#s1{
+    flex: 1;
+}
+#s2{
+    flex: 2;
+}
+#s3{
+    flex: 2;
+}
+#s4{
+    flex: 2;
+}
+#s5{
+    flex: 2;
+}
+#s6{
+    flex: 2;
+}
+#s7{
+    flex: 2;
+}
+#s8{
+    flex: 1;
+}
+#im1{
+    height: 250px;
+    width: 95%;
+}
+#sh1{
+    margin-left: 110px;
+}

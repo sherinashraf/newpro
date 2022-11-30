@@ -1,0 +1,25 @@
+#body7{
+    display: flex;
+    background-color: #F7F5F4;
+    height: 400px;
+    
+}
+#b71{
+    flex: 1;
+}
+#b72{
+    flex: 3;
+}
+#b73{
+    flex: 3;
+}
+#b74{
+    flex: 3;
+}
+#b75{
+    flex: 6;
+    text-align: center;
+}
+#img7{
+    height: 150px;
+}

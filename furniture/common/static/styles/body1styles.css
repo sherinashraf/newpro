@@ -1,0 +1,23 @@
+#body1{
+    display: flex;
+    background-color:;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+#b1{
+    flex: 1;
+}
+#b2{
+    flex: 12;
+}
+#b3{
+    flex: 4;
+    text-align:center;
+}
+#b4{
+    flex: 1;
+}
+#img2{
+    height: 490px;
+}

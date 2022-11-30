@@ -1,0 +1,57 @@
+#subhead{
+    display: flex;
+    background-color:;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#s1{
+    flex: 1;
+}
+#s2{
+    flex: 1;
+}
+#s3{
+    flex: 1;
+}
+#s4{
+    flex: 1;
+}
+#s5{
+    flex: 1;
+}
+#s6{
+    flex: 1;
+}
+#s7{
+    flex: 1;
+}
+#s9{
+    flex: 1;
+}
+#s10{
+    flex: 1;
+}
+#s11{
+    flex: 1;
+}
+#s12{
+    flex: 1;
+}
+#s13{
+    flex: 1;
+}
+#s14{
+    flex: 1;
+}
+#s15{
+    flex: 1;
+}
+#s16{
+    flex: 1;
+}
+a{
+    color: black;
+    text-decoration: none;
+}

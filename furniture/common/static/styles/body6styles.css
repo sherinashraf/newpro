@@ -1,0 +1,30 @@
+#body6{
+    display: flex;
+    background-color: lightgray;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#b61{
+    flex: 1;
+}
+#b62{
+    flex: 5;
+}
+#b63{
+    flex: 5;
+}
+#b64{
+    flex: 5;  
+}
+#b65{
+    flex: 1;
+}
+#img6{
+    height: 380px;
+    width: 97%;
+}
+#sp4{
+    font-size: 18px;
+}

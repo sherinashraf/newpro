@@ -1,0 +1,199 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'styles/headerstyles.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/subheadstyles.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/body1styles.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/body2styles.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/body3styls.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/body4styles.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/body5styles.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/body6styles.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/body7styles.css' %}">
+</head>
+<body>
+    <!-- hrader -->
+    <div id="header">
+        <div id="h1"></div>
+        <div id="h2"><img id="img" src="{% static 'images/aspen.png' %}"></div>
+        <div id="h3"><input id="txt" type="text" placeholder="Your door to happiness opens with a search"></div>
+        <div id="h4">
+            <img id="img1" src="{% static 'images/help icon.png' %}">
+            <img id="img1" src="{% static 'images/profile icon.png' %}">
+            <img id="img1" src="{% static 'images/wishlist icon.png' %}">
+            <img id="img1" src="{% static 'images/cart icon.png' %}">
+        </div>
+        <div id="h5"></div>
+    </div>
+    <div id="subhead">
+        <div id="s1"></div>
+        <div id="s2"><a href="{% url 'common:index' %}"><h4>Home</h4></a></div>
+        <div id="s3"><a href="{% url 'common:sofa' %}"><h4>Sofas & Recliners</h4></a></div>
+        <div id="s4"><a href="{% url 'common:beds' %}"><h4>Beds & Mattresses</h4></a></div>
+        <div id="s5"><a href="{% url 'common:storage' %}"><h4>Storage</h4></a></div>
+        <div id="s6"><a href="{% url 'common:dining' %}"><h4>Dining</h4></a></div>
+        <div id="s7"><a href=""><h4>Wall Accents</h4></a></div>
+        <div id="s8"><a href=""><h4>Decor</h4></a></div>
+        <div id="s9"><a href=""><h4>Lighting</h4></a></div>
+        <div id="s10"><a href=""><h4>Furnishing</h4></a></div>
+        <div id="s11"><a href=""><h4>Carpets</h4></a></div>
+        <div id="s12"><a href=""><h4>Outdoor</h4></a></div>
+        <div id="s13"><a href=""><h4>Appliances</h4></a></div>
+        <div id="s14"><a href=""><h4>Pets</h4></a></div>
+        <div id="s15"><a href=""><h4>Modular</h4></a></div>
+        <div id="s16"></div>
+    </div><br />
+    <!-- end header -->
+
+    <!-- body 1 -->
+    <div id="body1">
+        <div id="b1"></div>
+        <div id="b2"><img id="img2" src="{% static 'images/image1.jpg' %}"></div>
+        <div id="b3"><img id="img2" src="{% static 'images/image2.webp' %}"></div>
+        <div id="b4"></div>
+    </div><br />
+    <!-- end body 1 -->
+
+    <!-- body 2 -->
+    <h1>Shop By Room</h1><br />
+    <div id="body2">
+        <div id="b21"></div>
+        <div id="b22"><img id="img3" src="{% static 'images/living.jpg' %}"><br /><span id="sp1">Shop Living Room</span></div>
+        <div id="b23"><img id="img3" src="{% static 'images/bed.webp' %}"><br /><span id="sp1">Shop Bedroom</span></div>
+        <div id="b24"><img id="img3" src="{% static 'images/dining.webp' %}"><br /><span id="sp1">Shop Dining Room</span></div>
+        <div id="b25"><img id="img3" src="{% static 'images/study.webp' %}"><br /><span id="sp1">Shop Study Room</span></div>
+        <div id="b26"></div>
+    </div><br />
+    <!-- end body 2 -->
+
+    <!-- body 3 -->
+    <h1>Deal Of The Day</h1>
+    <div id="body3">
+        <div id="b31"></div>
+        <div id="b32">
+            <img id="img4" src="{% static 'images/striped.webp' %}"><br />
+            <span id="sp2">Striped BedLinen</span><br>
+            <span id="sp3">Get This For $345</span>
+        </div>
+        <div id="b33">
+            <img id="img4" src="{% static 'images/fibre.webp' %}"><br />
+            <span id="sp2">Fibre Pillow</span><br>
+            <span id="sp3">Get This For $399</span>
+        </div>
+        <div id="b34">
+            <img id="img4" src="{% static 'images/end table.jpg' %}"><br />
+            <span id="sp2">End Table</span><br>
+            <span id="sp3">Get This For $1299</span>
+        </div>
+        <div id="b35">
+            <img id="img4" src="{% static 'images/coir.jpg' %}"><br />
+            <span id="sp2">Coir Door Mat</span><br>
+            <span id="sp3">Get This For $355</span>
+        </div>
+        <div id="b36"></div>
+    </div>
+    <!-- end body 3 -->
+
+    <!-- body 4 -->
+    <h1>Trends In Furniture And Decor</h1>
+    <div id="body4">
+        <div id="b41"></div>
+        <div id="b42">
+            <img id="img5" src="{% static 'images/dark.webp' %}"><br />
+            <span id="sp2">Dark Academia Furniture</span><br>
+            <span id="sp3">Explore Starting $8999</span>
+        </div>
+        <div id="b43">
+            <img id="img5" src="{% static 'images/folksy.jpg' %}"><br />
+            <span id="sp2">Folksy Floral Carpets</span><br>
+            <span id="sp3">Explore Starting $699</span>
+        </div>
+        <div id="b44">
+            <img id="img5" src="{% static 'images/disney.webp' %}"><br />
+            <span id="sp2">Disney Carnival Furniture</span><br>
+            <span id="sp3">Explore Starting $499</span>
+        </div>
+        <div id="b45"></div>
+    </div>
+    <!-- end body 4 -->
+
+    <!-- body 5 -->
+    <div style="background-color: #F7F5F4;"><br /><h1 style="text-align: left; margin-left: 70px;">More From The Store</h1><br /></div>
+    <div id="body5">   
+        <div id="b51"></div>
+        <div id="b52">
+            <b>Furniture</b><br /> <br />sofas & recliners <br> seating <br>chairs <br>beds <br>cabinetry <br>tables <br>dining <br>kids & teens <br>home office <br>sofa chairs <br>entertainment units <br>outdoor <br>bar furniture <br>furniture & home services<br /><br>
+            <b>Sofas & recliners</b><br><br>3 seater sofas <br>2 seater sofas <br>1 seater sofas <br>sofa sets <br>sectional sofas <br>recliners <br>chaise loungers <br>sofa cum beds <br>futons
+        </div>
+        <div id="b53">
+            <b>Storage</b><br><br>wardrobes <br>cabinets & sideboards <br>chest of drawers <br>shoe racks <br>book shelves <br>book cases <br>wall shelves <br>wall cabinets <br>table organizers <br><br>
+            <b>Beds & Mattresses</b><br><br>queen size beds <br>king size beds <br>single beds <br>mattresses <br>queen size mattresses <br>king size mattresses <br>single bed mattresses <br>upholstered beds <br>kids beds <br>bunk beds <br>bedding <br>blankets & comforters
+        </div>
+        <div id="b54">
+            <b>Dining & Bar</b><br><br>dinnerware <br>serveware <br>drinkware <br>barware <br>teaware <br>bakeware <br>table linen <br>dining furniture <br>bar furniture <br><br>
+            <b>Wall Accents</b><br><br>mirrors <br>clocks <br>photo frames <br>wall shelves <br>wall cabinets <br>canvas paintings <br>wall art
+        </div>
+        <div id="b55">
+            <b>Decor</b><br><br>table decor <br>wall shelves &cabinets <br>wall art <br>spiritual <br>kids decor <br>mirrors <br>clocks <br>home garden <br>table ware <br>screens & dividers <br>photo frames <br><br>
+            <b>Lighting</b><br><br>floor lamps <br>table lamps <br>wall lights <br>ceiling lights <br>chandeliers <br>LED lights <br>smart lights <br>outdoor lights <br>festive lights <br>lampshades <br>kids lighting
+        </div>
+        <div id="b56">
+            <b>Furnishings</b><br><br>bed linens <br>curtains <br>blankets and comforters <br>cushions & covers <br>bath linen <br>kids furnishings <br>table linen <br>organizers <br>essentials <br><br>
+            <b>Carpets</b><br><br>carpets <br>dhurries <br>runners <br>doormats
+        </div>
+        <div id="b57">
+            <b>Garden & Outdoor</b><br><br>pots and planters <br>planter stands <br>natural plants <br>artificial plants & flowers <br>garden decor <br>outdoor furniture <br><br>
+            <b>Appliances</b><br><br>mixers and processors <br>breakfast appliances <br>OTGs <br>cooktops <br>chimneys <br>heating & cooling <br>televisions <br>home audio <br>laundry <br>cleaning <br>purifiers <br>built-in appliances <br>food makers
+        </div>
+        <div id="b58"></div>
+    </div>
+    <!-- end body 5 -->
+
+    <!-- body 6 -->
+    <h1>Customers Speak</h1>
+    <div id="body6">
+        <div id="b61"></div>
+        <div id="b62">
+            <img id="img6" src="{% static 'images/im1.webp' %}"><br />
+            <span id="sp4">Bought these two grey puffy stools from pepperfry. Found them to be surprisingly strong! Blends perfectly with our... </span><br><br>
+            Suman Senapatia <br> Visakhapatnam
+        </div>
+        <div id="b63">
+            <img id="img6" src="{% static 'images/im2.webp' %}"><br />
+            <span id="sp4">I purchased Candy Study Chair in Pink Colour by Alex Daisy from pepperfry looks awesome and My daughter...</span><br><br>
+            Satya Madhana <br> Secunderabad
+        </div>
+        <div id="b64">
+            <img id="img6" src="{% static 'images/im3.webp' %}"><br />
+            <span id="sp4">Purchased an ergonomic chair, I thought it would not be fitting for me but once it got delivered, got it assembled...</span><br><br>
+            Baba Kattubadi <br> Hyderabad
+        </div>
+        <div id="b65"></div>
+    </div><br><br>
+    <!-- end body 6 -->
+
+    <!-- body 7 -->
+    <div id="body7">
+        <div id="b71"></div>
+        <div id="b72">
+            <h3>Useful Links</h3>About Us <br><br>Our Blog <br><br>Creers <br><br>Corporate Governance <br><br>Aspen home in the news <br><br>Find A Studio <br><br>Gift Cards <br><br>Brands <br><br>Customer Reviews
+        </div>
+        <div id="b73">
+            <h3>Partners</h3>Sell with us <br><br>Become a Franchisee <br><br>Become a Pep Homie <br><br>Design For Us <br><br>Apsen home Marketplace Policies <br><br>Login to your Merchant Dashboard <br><br>
+            Important : GST and You <br><br>Corporate Enquiries
+        </div>
+        <div id="b74">
+            <h3>Need Help?</h3>Contact Us <br><br>Returns & Refund <br><br>Track Your Order <br><br>FAQs <br><br>Buy on Phone
+        </div>
+        <div id="b75">
+            <h2>Download App</h2><img id="img7" src="{% static 'images/dwn.jpg' %}">
+        </div>
+    </div>
+    <!-- end body 7 -->
+</body>
+</html>

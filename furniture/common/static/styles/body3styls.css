@@ -1,0 +1,35 @@
+#body3{
+    display: flex;
+    background-color: ;
+    height: 450px;
+    justify-content: center;
+    text-align: center;
+}
+#b31{
+    flex: 1;
+}
+#b32{
+    flex: 4;
+}
+#b33{
+    flex: 4;
+}
+#b34{
+    flex: 4;
+}
+#b35{
+    flex: 4;
+}
+#b36{
+    flex: 1;
+}
+#img4{
+    height: 380px;
+    width: 95%;
+}
+#sp2{
+    font-size: 23px;
+}
+#sp3{
+    color: grey;
+}
